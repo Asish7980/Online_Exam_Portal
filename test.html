@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Exam Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+ 
+    <h2>Online Exam Portal</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="test.html">Take Test</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="test">
+        <h2>Take a Test</h2>
+        <button id="startTest">Start Test</button>
+        <div id="quizContainer" class="hidden">
+          <div id="question"></div>
+          <ul id="answers"></ul>
+          <button id="nextButton">Next</button>
+        </div>
+        <div id="resultContainer" class="hidden">
+          <h3>Your Score: <span id="score"></span>/5</h3>
+          <button id="restartTest">Restart</button>
+        </div>
+      </section>
+   
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Online Exam Portal. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
