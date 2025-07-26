@@ -87,11 +87,11 @@ Visit http://localhost/Online-Exam-Portal in your browser
 
 
 ## 🔑 Default Credentials (For Demo)
-Admin Login
+*Admin Login*
 Username: admin
 Password: admin123
 
-Student Login
+*Student Login*
 Register through the user panel or check the database for sample credentials.
 
 ## 🤝 Contributing
